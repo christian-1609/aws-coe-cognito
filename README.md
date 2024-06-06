@@ -129,9 +129,7 @@ That's it, if you have any coment or question, please let me know!
 
 Happy Coding!!
 
-# Regarding the project
-
-## React.js + Vite
+# About the React project
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
