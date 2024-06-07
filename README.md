@@ -76,7 +76,7 @@ So, first of all, we need to install the ```npm``` dependencies (currently the p
         navigate(`/confirmation?username=${firstName}`);
     ```
 3. The next Step is to confirmation code, that is a code that you will receive through your email after the signUp process, add the next code in line 6, in file 
-```src/components/Confirmation/Confirmation.tsx```
+```src/components/Confirmation/ConfirmationCode.tsx```
 
     ```js
     import { confirmSignUp, type ConfirmSignUpInput, resendSignUpCode } from 'aws-amplify/auth';
@@ -124,6 +124,12 @@ So, first of all, we need to install the ```npm``` dependencies (currently the p
     ```
 
 Finally the aplication must be able to register, and login users with valid emails accounts.
+
+Please, execute the next command and test the application:
+
+```bash
+$ npm run dev
+```
 
 That's it, if you have any coment or question, please let me know!
 
